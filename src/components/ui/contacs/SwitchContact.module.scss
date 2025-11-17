@@ -1,0 +1,110 @@
+.content {
+	width: 70px;
+	height: 70px;
+	background-color: #007bff;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 40px;
+	left: 93%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 20;
+}
+
+.containerSmall {
+	width: 50px;
+	height: 50px;
+	left: 88%;
+	bottom: 30px;
+}
+
+.ping {
+	width: 70px;
+	height: 70px;
+	background-color: #007bff;
+	border-radius: 50%;
+	position: absolute;
+	animation: ping 1.5s infinite;
+}
+
+.icon {
+	width: 35px;
+	height: 35px;
+	z-index: 30;
+	fill: white;
+}
+
+.iconSmall {
+	width: 20px;
+	height: 20px;
+}
+
+.link {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: #007bff;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 5px 15px #007bff;
+	z-index: 10;
+}
+
+.linkSmall {
+	width: 35px;
+	height: 35px;
+}
+
+.linkWhatsapp {
+	bottom: 40px;
+	right: 40px;
+}
+
+.linkInstagram {
+	bottom: 120px;
+	right: 1px;
+}
+
+.linkPhone {
+	bottom: 142px;
+	right: -60px;
+}
+
+@keyframes ping {
+	0% {
+		transform: scale(1);
+	}
+	75% {
+		transform: scale(1.4);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1.4);
+		opacity: 0;
+	}
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 70px;
+    height: 70px;
+    left: 85%;
+  }
+}
+
+@media (max-width: 440px) {
+  .content {
+    width: 50px;
+    height: 50px;
+    left: 80%;
+  }
+
+  .icon{
+    width: 20px;
+    height: 20px;
+  }
+}
