@@ -1,25 +1,15 @@
 // /* eslint-disable @typescript-eslint/no-unused-vars */
-// "use client";
 
 // import { useEffect, useState } from "react";
-// import { Flip, ToastContainer, Zoom, toast } from "react-toastify";
 // // import Iphone from "@/components/asset/phone.png";
 // import emailjs from "emailjs-com";
 // import scss from "./FormComponent.module.scss";
-// import "react-toastify/dist/ReactToastify.css";
-
-// export const FormComponent = () => {
 //   const [fName, setFName] = useState<string>("");
 //   const [fEmail, setFEmail] = useState<string>("");
 //   const [fNumber, setFNumber] = useState<string>("");
 //   const [fText, setFText] = useState<string>("");
-//   const [isLoading, setIsLoading] = useState<boolean>(false);
 //   const [validation, setValidation] = useState(false);
 
-//   const ResetState = () => {
-//     setFName("");
-//     setFEmail("");
-//     setFNumber("");
 //     setFText("");
 //     setIsLoading(false);
 //   };
