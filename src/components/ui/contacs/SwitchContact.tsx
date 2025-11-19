@@ -49,12 +49,7 @@ const SwitchContact = () => {
         icon: <GrInstagram color="white" />,
         scss: scss.linkInstagram
       },
-      //  {
-      //   href: "+996709328037",
-      //   icon: <FaTelegram color="white" />,
-      //   scss: scss.linkPhone
-      
-      // }
+
     ].map(({ href, icon, scss: posStyle }, index) => (
         <motion.a
           key={index}

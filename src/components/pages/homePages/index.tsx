@@ -126,7 +126,6 @@ export default function HomePages() {
 							</h1>
 						</div>
 
-						{/* Image */}
 						<div className="flex-1 flex justify-center">
 							<img
 								src="https://scontent.cdninstagram.com/v/t51.82787-15/584401183_18086297785982151_179697115524123371_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_cat=102&ig_cache_key=Mzc2NzU4MDcyNTA3MjEzNDMzNQ%3D%3D.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc5Ni5zZHIuQzMifQ%3D%3D&_nc_ohc=mYXooyyJoncQ7kNvwE-JrDQ&_nc_oc=AdmhcG1tGZjhZOSlQSk-GTOZVDvTLAAbkbbwu5wlWtv5dwnpIdx5VGMuu2RXya0Zw-A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=4SYsLHi7e3VioTX6veslcw&oh=00_AfiEVhULugkzzNSh-gSc7r_0dT-7Dvqv_kpdioLA6N1vMQ&oe=6920A34E"
