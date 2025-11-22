@@ -6,33 +6,6 @@
 //     setFText("");
 //     setIsLoading(false);
 //   };
-
-//   const sendEmail = () => {
-//     setIsLoading(true);
-//     emailjs
-//       .send(
-//         "service_w0i4r4l",
-//         "template_gft7y0j",
-//         {
-//           from_name: fName,
-//           email: fEmail,
-//           phone: fNumber,
-//           text: fText,
-//         },
-//         "3NB3jo4m9L0Ja5pb2"
-//       )
-//       .then(
-//         (result) => {
-//           toast.success("Заявка успешно отправлена !", {
-//             position: "top-center",
-//             autoClose: 3000,
-//             hideProgressBar: false,
-//             closeOnClick: true,
-//             pauseOnHover: true,
-//             draggable: true,
-//             progress: 0,
-//             theme: "dark",
-//             transition: Zoom,
 //           });
 //           ResetState();
 //         },
