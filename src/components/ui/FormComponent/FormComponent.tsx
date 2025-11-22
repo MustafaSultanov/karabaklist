@@ -1,14 +1,7 @@
 // /* eslint-disable @typescript-eslint/no-unused-vars */
 
 // import { useEffect, useState } from "react";
-// // import Iphone from "@/components/asset/phone.png";
-// import emailjs from "emailjs-com";
-// import scss from "./FormComponent.module.scss";
-//   const [fName, setFName] = useState<string>("");
-//   const [fEmail, setFEmail] = useState<string>("");
-//   const [fNumber, setFNumber] = useState<string>("");
-//   const [fText, setFText] = useState<string>("");
-//   const [validation, setValidation] = useState(false);
+// // import Iphone from "@/componx
 
 //     setFText("");
 //     setIsLoading(false);
